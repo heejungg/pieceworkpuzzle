@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Halant', serif;
+}
+body{
+    background-color: #fb7c3c;
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    margin: 0px auto;
+}
+
+#mainImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    margin-bottom: 0px;
+}
+
+#title{
+    background-color: white;
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+}
+
+#about{
+    margin-left: 480px;
+    font-size: 1.8em;
+}
+
+#aboutimg{
+ position: absolute;
+ 
+}
+
+.row{width: 100%; 
+    display: flex;
+    background-color: white;
+    margin-top: 0px;
+    
+}
+
+
+/*
+.col12{width: 100%;
+    background-color: blueviolet;
+}
+*/
+
+
+.col6{width: 50%;  
+}
+.col1{width: 8.455%;
+}
+.col4{width: 33.2%;
+    margin-left: 120px;
+}
+.col10{width: 83%;
+}
+
+#maintext{
+    font-size: 3.8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#subtext{
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+
+
+#slider{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageContainer{
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+}
+
+#imagesSlider{
+    width: 400%;
+    height: 1080px;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    transition: transform 0.5s;
+}
+.imgBox{
+    width: 100%;
+}
+
+.imgBox img{
+    width: 100%;
+}
+
+#interface{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#leftrow{
+    position: absolute;
+    left: 20px;
+    margin-top: 20%;
+    width: 20vmax;
+}
+
+#leftBtn{
+    width: 100%;
+}
+
+#rightBtn{
+    width: 100%;
+}
+
+
+#rightrow{
+    position: absolute;
+    right: 20px;
+    margin-top: 20%;
+    width: 20vmax;
+    transform: scaleX(-1);
+}
+
+#bottomBtn{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-evenly;
+
+}
+
+#textcontainer{
+    position: absolute;
+    left: 0px;
+    top: 2800px;
+    height: 2000px;
+}
+
+.box{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+.mytext{
+    position: absolute;
+    width: 100%;
+    color: black;
+    font-size: 1.0rem;
+}
+
+
+.subTitle{
+    margin-left: 120px;
+    font-size:3.8rem;
+}
+
+#menuBar{
+    font-size: 10px;
+    position: fixed;
+    top: 20%;
+    left: 75%;
+    width: 220px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.3);   
+}
+
+#menus{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+
+@media (max-width:768px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    html{
+        font-family: 'Halant', serif;
+    }
+    body{
+        background-color: #fb7c3c;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1440px;
+        margin: 0px auto;
+    }
+    
+    #mainImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 768px;
+        
+    }
+    
+    #title{
+        background-color: white;
+        margin-top: 5px;
+        width: 100%;
+        height: 600px;
+    }
+    
+    #about{
+        margin-left: 480px;
+        font-size: 1.8em;
+    }
+    
+    #aboutimg{
+     position: absolute;
+     
+    }
+    
+    .row{width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        margin-top: 0px;
+    }
+    
+    
+    /*
+    .col12{width: 100%;
+        background-color: blueviolet;
+    }
+    */
+    
+    
+    .col6{width: 50%;  
+    }
+    .col1{width: 8.455%;
+    }
+    .col4{width: 33.2%;
+        margin-left: 120px;
+    }
+    .col10{width: 83%;
+    }
+    
+    #maintext{
+        font-size: 3.8rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    #subtext{
+        font-size: 1.2rem;
+        margin-top: 50px;
+    }
+    
+    
+    
+    #slider{
+        position: relative;
+        width: 100%;
+        height: 1080px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #imageContainer{
+        position: absolute;
+        width: 100%;
+        height: 1080px;
+        overflow: hidden;
+    }
+    
+    #imagesSlider{
+        width: 400%;
+        height: 1080px;
+        display: flex;
+        position: absolute;
+        left: 0px;
+        transition: transform 0.5s;
+    }
+    .imgBox{
+        width: 100%;
+    }
+    
+    .imgBox img{
+        width: 100%;
+    }
+    
+    #interface{
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 1080px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    #leftrow{
+        position: absolute;
+        left: 20px;
+        margin-top: 20%;
+        width: 20vmax;
+    }
+    
+    #leftBtn{
+        width: 100%;
+    }
+    
+    #rightBtn{
+        width: 100%;
+    }
+    
+    
+    #rightrow{
+        position: absolute;
+        right: 20px;
+        margin-top: 20%;
+        width: 20vmax;
+        transform: scaleX(-1);
+    }
+    
+    #bottomBtn{
+        display: flex;
+        width: 300px;
+        height: 30px;
+        justify-content: space-evenly;
+    
+    }
+    
+    #textcontainer{
+        position: absolute;
+        left: 0px;
+        top: 2800px;
+        height: 2000px;
+    }
+    
+    .box{
+        width: 100%;
+        height: 50px;
+        background-color: antiquewhite;
+    }
+    
+    .mytext{
+        position: absolute;
+        width: 100%;
+        color: black;
+        font-size: 1.0rem;
+    }
+    
+    
+    .subTitle{
+        margin-left: 120px;
+        font-size:3.8rem;
+    }  
+}
+
+
+
